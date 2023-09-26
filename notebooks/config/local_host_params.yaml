@@ -1,0 +1,14 @@
+Datasets:
+  - root_path: "/home/croc/Documenti/Trajectories"
+  - Corridor_A:
+      folder_name: "excasi"
+      map_folder: "maps_original"
+      map_name: "excasi"
+  - Corridor_B:
+      folder_name: "corridor_valigi"
+      map_folder: "map_corridor_v"
+      map_name: "corridorValigi"
+  - Airport:
+      folder_name: "airport"
+      map_folder: "map_airport"
+      map_name: "airport_small"

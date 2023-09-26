@@ -1,0 +1,11 @@
+Containers:
+  - DSO:
+      Id: "5b2c72b08226"
+      Names: "test_dso"
+      datasetFolder: "/root/Archive/Dataset"
+      binPath: "/root/Programs/dso/build/bin/"
+  - ORBSLAM3:
+      Id: "4ecad379b081"
+      Names: "test_orbslam3"
+      datasetFolder: "/root/Archive/Dataset"
+      binPath: "/root/Programs/ORB_SLAM3/Examples/Monocular/"
