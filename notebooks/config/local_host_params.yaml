@@ -1,14 +1,15 @@
 Datasets:
-  - root_path: "/home/croc/Documenti/Trajectories"
-  - Corridor_A:
+  root_path: "/home/croc/Documenti/Trajectories"
+  map_folder: "map_gt"
+  data_folder: "Datasets/TUM Format"
+  out_eva_folder: "trajectories"
+  Scenarios:
+    Corridor_A:
       folder_name: "excasi"
-      map_folder: "maps_original"
       map_name: "excasi"
-  - Corridor_B:
+    Corridor_B:
       folder_name: "corridor_valigi"
-      map_folder: "map_corridor_v"
       map_name: "corridorValigi"
-  - Airport:
+    Airport:
       folder_name: "airport"
-      map_folder: "map_airport"
       map_name: "airport_small"
