@@ -1,11 +1,32 @@
 Containers:
   - DSO:
-      Id: "5b2c72b08226"
+      Id: "7a0bedaae163"
       Names: "test_dso"
-      datasetFolder: "/root/Archive/Dataset"
-      binPath: "/root/Programs/dso/build/bin/"
+      datasetFolder: "/root/Archive/Dataset/"
+      Algorithm:
+        binPath: "/root/Programs/dso/build/bin/"
+        exec: "dso_dataset_params"
+        output_file: "result.txt"
+        configs:
+          files: "images.zip"
+          calib: "camera.txt"
+          gamma: "pcalib.txt"
+          vignette: "vignette.png"
+        params:
+          ImmatureDensity: 400
+          PointDensity: 800
+          minFrames: 5
+          maxFrames: 7
+          maxOptIterations: 6
+          minOptIterations: 1
+          speed: 0
+          mode: 0
+          nogui: 1
+          quiet: 1
+
   - ORBSLAM3:
       Id: "4ecad379b081"
       Names: "test_orbslam3"
-      datasetFolder: "/root/Archive/Dataset"
-      binPath: "/root/Programs/ORB_SLAM3/Examples/Monocular/"
+      datasetFolder: "/root/Archive/Dataset/"
+      Algorithm:
+        binPath: "/root/Programs/ORB_SLAM3/Examples/Monocular/"
