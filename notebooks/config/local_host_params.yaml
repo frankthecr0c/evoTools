@@ -2,6 +2,7 @@ Datasets:
   root_path: "/home/croc/Documenti/Trajectories"
   map_folder: "map_gt"
   data_folder: "Datasets/TUM Format"
+  GtFileSuffix: "*_GT.txt"
   out_eva_folder: "trajectories"
   Scenarios:
     Corridor_A:
